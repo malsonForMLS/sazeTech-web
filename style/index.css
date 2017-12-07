@@ -1,0 +1,154 @@
+/** .col-xs- **/
+@media screen and (max-width: 768px) {
+    .saze-tech-logo {
+        width: 10rem;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+        cursor: pointer;
+        background-color: #ff0000;
+        /** 绝对定位 **/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -5rem;
+        margin-top: -1.5rem;
+        z-index: 999;
+        /** 动画时间 **/
+        animate-duration: 0.6s;
+        -moz-animation-duration: 0.6s;
+        -webkit-animation-duration: 0.6s;
+    }
+
+    .saze-tech-logo-title {
+        font-size: 1.6rem;
+        color: #ffffff;
+    }
+
+    .saze-tech-logo-after {
+        width: 6rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        top: 0%;
+        left: 0%;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .saze-tech-logo-title-after {
+        font-size: 1rem;
+    }
+
+    .saze-tech-index {
+        margin-top: 2rem;
+        /** 动画时间 **/
+        animate-duration: 0.6s;
+        -moz-animation-duration: 0.6s;
+        -webkit-animation-duration: 0.6s;
+    }
+
+    .saze-tech-detail {
+        margin-top: 2rem;
+        /** 动画时间 **/
+        animate-duration: 0.6s;
+        -moz-animation-duration: 0.6s;
+        -webkit-animation-duration: 0.6s;
+    }
+}
+
+/** .col-sm- **/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/** .col-md- **/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/** .col-lg- **/
+@media screen and (min-width: 1200px) {
+
+}
+
+/** .col-sm- .col-md- .col-lg- **/
+@media screen and (min-width: 768px) {
+    .saze-tech-logo {
+        width: 22rem;
+        height: 4rem;
+        text-align: center;
+        line-height: 4rem;
+        cursor: pointer;
+        background-color: #ff0000;
+        /** 绝对定位 **/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -11rem;
+        margin-top: -2rem;
+        z-index: 999;
+        /** 动画时间 **/
+        animate-duration: 0.6s;
+        -moz-animation-duration: 0.6s;
+        -webkit-animation-duration: 0.6s;
+    }
+
+    .saze-tech-logo-title {
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .saze-tech-logo-after {
+        width: 13rem;
+        height: 2rem;
+        line-height: 2rem;
+        top: 0%;
+        left: 0%;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .saze-tech-logo-title-after {
+        font-size: 1.2rem;
+    }
+
+    .saze-tech-index {
+        margin-top: 2rem;
+        /** 动画时间 **/
+        animate-duration: 0.6s;
+        -moz-animation-duration: 0.6s;
+        -webkit-animation-duration: 0.6s;
+    }
+
+    .saze-tech-detail {
+        margin-top: 2rem;
+        /** 动画时间 **/
+        animate-duration: 0.6s;
+        -moz-animation-duration: 0.6s;
+        -webkit-animation-duration: 0.6s;
+    }
+}
+
+html {
+    font-size: 100%;
+}
+
+.saze-tech-index-desc {
+    text-align: center;
+}
+
+.saze-tech-index-desc a span {
+    font-size: 0.8rem;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.saze-tech-index-desc .title {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.saze-tech-index-desc .content {
+    text-indent: 2rem;
+    font-size: 0.8rem;
+}

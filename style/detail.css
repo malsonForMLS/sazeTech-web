@@ -1,0 +1,61 @@
+/** .col-xs- **/
+@media screen and (max-width: 768px) {
+    .saze-tech-case img {
+        width: 80%;
+    }
+
+    .saze-tech-about address {
+        font-size: 0.8rem;
+    }
+
+    .saze-tech-about img {
+        width: 80%;
+    }
+
+    .saze-tech-about-desc .content {
+        font-size: 0.8rem;
+    }
+}
+
+/** .col-sm- .col-md- .col-lg- **/
+@media screen and (min-width: 768px) {
+    .saze-tech-case img {
+        width: 60%;
+    }
+
+    .saze-tech-about-desc .content {
+        font-size: 1rem;
+    }
+}
+
+.saze-tech-detail {
+    text-align: center;
+}
+
+.saze-tech-detail .title {
+    font-size: 1.6rem;
+}
+
+.saze-tech-case {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.saze-tech-about {
+    margin-top: 1.5rem;
+}
+
+.saze-tech-about .qrcode {
+    width: 60%;
+}
+
+.saze-tech-about address {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.vertical-align {
+    display: flex; /*Flex布局*/
+    display: -webkit-flex; /* Safari */
+    align-items: center; /*指定垂直居中*/
+}
